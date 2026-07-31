@@ -1,5 +1,5 @@
 import Product from "./Product.js";
-import ProductPerishable from "./ProductPerishable.js";
+import PerishableProduct from "./PerishableProduct.js";
 import Store from "./Store.js";
 
 //create the store
