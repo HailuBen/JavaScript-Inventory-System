@@ -12,5 +12,12 @@ const yogurt = new PerishableProduct("Yogurt", 3.25, 15, "2026-08-20");
 const vitamins = new Product("Vitamins", 5.00, 10);
 const floss = new Product("Floss", 2.00, 30);
 
+//add individual products to store
+myStore.addProduct(orange);
+myStore.addProduct(oatmeal);
+myStore.addProduct(yogurt);
+myStore.addProduct(vitamins);
+myStore.addProduct(floss);
 
-
+//print inventory value before the discount
+console.log("Inventory Value BEFORE Discount:", myStore.getInventoryValue());
