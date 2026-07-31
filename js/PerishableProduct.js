@@ -1,6 +1,6 @@
 // subclass for expiration dated products
 
-import Product from "./Product";    // import base class to use its elements
+import Product from "./Product.js";    // import base class to use its elements
 
 export default class PerishableProduct extends Product {
     constructor(name, price, quantity, expirationDate) {
