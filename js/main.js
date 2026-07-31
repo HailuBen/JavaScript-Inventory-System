@@ -25,7 +25,8 @@ console.log("Inventory Value BEFORE Discount:", myStore.getInventoryValue());
 // apply a discount of 15% to inventory
 Product.applyDiscount(myStore.inventory, 0.15);
 
-console.log("Inventory Value after discount: ", mySytore.getInventoryValue());
+
+console.log("Inventory Value after discount: ", myStore.getInventoryValue());
 
 //find product by name
 const foundProduct = myStore.findProductByName("Milk");
