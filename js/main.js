@@ -1,0 +1,19 @@
+import Product from "./Product.js";
+import ProductPerishable from "./ProductPerishable.js";
+import Store from "./Store.js";
+
+//create the store
+const myStore = new Store();
+
+//create the products
+const orange = new Product("Orange", 2.30, 50);
+const oatmeal = new PerishableProduct("Oatmeal", 1.60, 80, "2026-12-31");
+const yogurt = new PerishableProduct("Yogurt", 3.25, 15, "2026-08-20");
+const vitamins = new Product("Vitamins", 5.00, 10);
+const floss = new Product("Floss", 2.00, 30);
+
+myStore.addProduct(orange);
+myStore.addProduct(oatmeal);
+myStore.addProduct(yogurt);
+myStore.addProduct(vitamins);
+myStore.addProduct(floss);
