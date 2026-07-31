@@ -21,3 +21,6 @@ myStore.addProduct(floss);
 
 //print inventory value before the discount
 console.log("Inventory Value BEFORE Discount:", myStore.getInventoryValue());
+
+// apply a discount of 15% to inventory
+Product.applyDiscount(myStore.inventory, 0.15);
