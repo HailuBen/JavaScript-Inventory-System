@@ -31,3 +31,6 @@ console.log("Inventory Value after discount: ", myStore.getInventoryValue());
 //find product by name
 const foundProduct = myStore.findProductByName("Milk");
 console.log(foundProduct ? foundProduct.toString() : "Product not found");
+
+const foundProduct2 = myStore.findProductByName("Floss");
+console.log(foundProduct2 ? foundProduct2.toString() : "Product not found");
