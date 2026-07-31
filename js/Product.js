@@ -18,7 +18,7 @@ export default class Product {
     }
 
     static applyDiscount(products, discount) {
-        products.foreach(product => {
+        products.forEach(product => {
             product.price -= product.price * discount;
         }); // go through all products, subtract (price * discount) from current price
     }
