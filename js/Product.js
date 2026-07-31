@@ -17,4 +17,10 @@ export default class Product {
         return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
     }
 
+    static applyDiscount(products, discount) {
+        products.foreach(product => {
+            product.price -= product.price * discount;
+        }); 
+    }
+
 }
